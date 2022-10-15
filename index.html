@@ -1,43 +1,209 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>
+        index.html
+    </title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    h2{
+        color:darkorange;
+        font-size:40px;
+        font-family:sans-serif;
+    }
+    h3{
+        color:#1d0354;
+        font-size: 20px;
+        font-family:sans-serif;
+    }
+</style>
 <body>
-    <title>index</title>
-
-<h3>WELCOME TO MY WEBSITE</h3>
-<body>
-    <img src="portfolio image.png" alt="portfolio" 
-    height="400" width="400" usemap="#mymap">
-    <map name="mymap">
-    <area shape="rect" coords="45,82,759,337" href="portfolio.html" alt="">
-</body>
-
-
-
-
-<h4>Click on the portfolio image to go to portfolio</h4>
-<dl>
-    <dt>BIOGRAPHY</dt>
-    <dd> <a href="portfolio.html#C1">Jump to BIOGRAPHY</a></dd>
-    <dt>PHOTO</dt>
-    <dd> <a href="portfolio.html#C2">Jump to PHOTO</a></dd>
-    <dt>EDUCATION</dt>
-    <dd> <a href="portfolio.html#C6">Jump to EDUCATION</a></dd>
-    <dt>HOBBIES</dt>
-    <dd> <a href="portfolio.html#C4">Jump to HOBBIES</a></dd>
-    <dt>Contact Info</dt>
-    <dd><a href="portfolio.html#C3">Jump to Contact</a></dd>
+    <div class="biographybackground" >
     
-    <dt>FAVOUTIRE BOOKS</dt>
-    <dd> <a href="portfolio.html#C5">Jump to FAVOURITE BOOKS</a>
+        <h3  style="background-color:blueviolet" id="C1">
+            MY BIOGRAPHY
+        </h3>
+        <p class="size style">
+            My name is Deepak Paul,pursuing Game programming diploma in St lawrence college ,Cornwall.I completed my 12 th grade in india
+            and decided to move to Canada for my further studies.
+        </p>
+        <h4>
+        <hr>
+        <h3 id="C2">
+            My Photo
+        </h3>
+        <img src="my photo.png" height="533" width="400" alt="This is a picture of Deepak" title="DEEPAK PAUL" class="img">
+        <br>    
+        </h4>
+    </div>
+
+    
+    <h2 id="C4">My hobbies</h2>
+    <ol start="1">
+        <li>Reading</li>
+        <li>Gaming</li>
+        <li>Cycling</li>
+        </ol>
 
 
-</dl>
+    <div class = "resumeBackground">
+        <h2 id="C6">-------------RESUME----------------</h2>
 
+
+        <h4 style="color: white;">EDUCATION</h4>
+        <table border="1"  width="60%">
+            <tr height="50">
+            <th>SCHOOL</th>
+            <th>QUALIFICATION</th>
+            <th>PERCENTAGE </th>
+            </tr>
+            <tr>
+            <td width="30%">St Annes </td>
+            <td>10th grade</td>
+            <td>80%</td>
+            </tr>
+            <tr>
+            <td>St Peters </td>
+            <td>12th Grade</td>
+            <td>76%</td>
+            </tr>
+            <tr>
+            <td>St Lawrence</td>
+            <td>Game program</td>
+            <td>0%</td>
+            </tr> 
+        </table>
+    </div>
+
+
+    <div class ="experienceBackground">
+        <br>---------------------------------------------------<br>
+        <h3>EXPERIENCE</h3>
+        <b>PYTHON</b>
+        <pre style="color: rgb(128, 128, 128);">
+            <h3><b>I have a 3 year of experience doing python,especially in datascience part of python.I have done 
+            various things in python such as creating games(snake game,rocket lauching game), creating simple 
+            calculator.</b></h3>
+        
+        <b>MYSQL</b>
+        <pre>
+            <h3><b>I have a 1 year of experience in MYSQL database management system.I have created database and various 
+            stuffs related to MYSQL</b></h3>
+        </pre>
+        </pre>
+    </div>
+
+     <h2>Tutorials I Watched in Youtube For Coding</h2>
+     
+     <pre>
+        <a href="https://www.youtube.com/watch?v=XKHEtdqhLK8&t=42336s" target="_blank">For Python</a>
+        <a href="https://www.youtube.com/watch?v=AA7i2GcTGwU" target="_blank">For MYSQL</a>
+     </pre>
+     
+
+
+     <h4 style="color: white;">EDUCATION</h4>
+     <table border="1"  width="60%">
+         <tr height="50">
+         <th>PHOTOS</th>
+         <th>OF</th>
+         <th>GAMES</th>
+         </tr>
+         <tr>
+         <td width="30%"><image src="PUBGfile3.png" width="200px" height="200px"class="img"></image> </td>
+         <td><image src="pubgfile4.png" height="200px" height="200px"class="img"></image></td>
+         <td><image src="pubgfile2.png"200px" height="200px"class="img"></image></td>
+         </tr>
+         <tr>
+         <td><image src="pubgfil5.png" height="200px" height="200px" class="img"></image></td>
+         <td><image src="pubgfile6.png" height="200px" height="200px" class="img"></image></td>
+         <td><image src="pubg file 1.png" height="200px" height="200px"class="img"></image></td>
+         </tr>
+         
+     </table>
+ </div>
+    <br>
+
+    <h3>TESTIMONIAL</h3>
+
+    <p>
+        <b>James Borris</b> (school teacher)had said: <q cite="">Deepak  is nice student.He scored very good score in the class</q>
+    </p>
+    <p>
+        <b>Paul Thomas</b> (friend)had said: <q cite="">working with deepak was a good experience</q>
+
+    </p>
+  
+    <h3 id="C3">CONTACT INFO</h3>
+    <dl>
+        <dt>Email id</dt>
+        <dd>- deepakpaulappadan@gmail.com
+        </dd>
+        <dt>Contact Info</dt>
+        <dd>- 613-870-2484</dd>
+    </dl>
+
+        <a href="mailto:deepakpaulappadna@gmail.com">Send email to deepak paul</a>
+
+
+    
+     <h2 id="C5">MY FAVOURITE BOOKS</h2>
+
+    <table border="1" width="60%">
+        <tr>
+        <th>Index</th>
+        <th>Book</th>
+        <th>Name of the Author</th>
+        </tr>
+        <tr>
+        <td>1</td>
+        <td>Laws of Human Nature</td>
+        <td rowspan="4"><b>Robert Green</b></td>
+        </tr>
+        <tr>
+        <td>2</td>
+        <td>33 Statergies of War</td>
+        </tr>
+        <tr>
+        <td>3</td>
+        <td>48 Laws Of Power</td>
+        </tr>
+        <tr>
+        <td>4</td>
+        <td>Mastery</td>
+        </tr>
+        
+        </table>
+
+
+
+    
+        <blockquote cite="">
+            For going back to Bookmarks
+            </blockquote>
+        <p>
+            <a href src="portfolio.html">Click Here</a>
+        </p>
+
+        <img src="next.jpg" height="100" width="300" class="photo">
+        
+
+        
+
+            
+
+       
+    
+
+    
+    
+    
+    
+    
 </body>
 </html>
